@@ -1,0 +1,13 @@
+export default function home() {
+    return `
+    <html>
+      <head>
+        <title>Home</title>
+      </head>
+      <body>
+        <h1>Welcome to the Home Page</h1>
+        <a href="/login">Login</a>
+      </body>
+    </html>
+  `;
+}
